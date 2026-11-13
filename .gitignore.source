@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Runtime output / scratch
+uploads/
+work/
+clips/
+_smoketest/
+
+# Auto-downloaded model (YuNet) — fetched on first run
+clipper/models/
+
+# Per-user saved brand kit
+brand.json
+
+# Local secrets (API keys) — never commit
+.env
+
+# Local Netlify folder
+.netlify
+FINDINGS.md
+PLAN.md
